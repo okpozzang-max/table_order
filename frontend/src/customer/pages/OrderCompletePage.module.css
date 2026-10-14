@@ -1,0 +1,47 @@
+.wrap {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: var(--space-5);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 420px;
+}
+
+.check {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--color-completed-bg);
+  color: var(--color-completed-text);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.4rem;
+}
+
+.number {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.countdown {
+  margin: 0;
+  color: var(--color-text-muted);
+}

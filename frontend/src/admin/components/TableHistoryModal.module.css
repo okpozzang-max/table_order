@@ -1,0 +1,53 @@
+.filters {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.input {
+  min-height: var(--touch-min);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.rowTop,
+.rowBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.number {
+  font-weight: 600;
+}
+
+.time,
+.completed {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.total {
+  font-weight: 600;
+}

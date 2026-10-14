@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytest_tmp/
+.env
+data/
+
+# runtime artifacts
+server.pid
+server.log
+status.txt
+_*.json
+_*.txt

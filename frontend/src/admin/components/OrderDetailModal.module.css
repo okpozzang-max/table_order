@@ -1,0 +1,35 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.meta {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  color: var(--color-text-muted);
+}
+
+.items {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.items th,
+.items td {
+  padding: var(--space-2);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.items th:not(:first-child),
+.items td:not(:first-child) {
+  text-align: right;
+}
+
+.total {
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
