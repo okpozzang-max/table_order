@@ -58,7 +58,7 @@ interface SeedMenu {
 const SEED_MENUS: SeedMenu[] = [
   { name: '김치찌개', price: 9000, description: '잘 익은 김치와 돼지고기를 넣고 끓인 찌개', category: '메인' },
   { name: '된장찌개', price: 8500, description: '구수한 된장에 두부와 채소를 넣은 찌개', category: '메인' },
-  { name: '제육볶음', price: 50000, description: '매콤하게 볶은 돼지고기 볶음', category: '메인' },
+  { name: '제육볶음', price: 11000, description: '매콤하게 볶은 돼지고기 볶음', category: '메인' },
   { name: '비빔밥', price: 9500, description: '나물과 고추장을 곁들인 비빔밥', category: '메인' },
   { name: '계란말이', price: 6000, description: '부드러운 계란말이', category: '사이드' },
   { name: '공기밥', price: 1000, description: '갓 지은 흰쌀밥', category: '사이드' },
